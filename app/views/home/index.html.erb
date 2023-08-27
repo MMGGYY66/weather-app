@@ -1,0 +1,7 @@
+<h1>Welcome to the Weather App</h1>
+
+<%= form_tag('/weather', method: :get) do %>
+  <%= label_tag(:city, "Enter a city:") %>
+  <%= text_field_tag(:city) %>
+  <%= submit_tag("Submit") %>
+<% end %>
