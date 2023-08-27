@@ -43,6 +43,34 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 gem "bootstrap"
+
+gem "jquery-rails"
+gem "fontawesome-free"
+
+gem "webpacker", git: "https://github.com/rails/webpacker"
+gem "figaro"
+gem "devise"
+gem "omniauth"
+gem "omniauth-facebook"
+gem "omniauth-google-oauth2"
+gem "omniauth-twitter"
+gem "omniauth-github"
+gem "omniauth-linkedin-oauth2"
+gem "omniauth-instagram"
+gem "omniauth-tumblr"
+gem "omniauth-vimeo"
+gem "omniauth-youtube"
+gem "omniauth-pinterest"
+gem "omniauth-flickr"
+gem "omniauth-amazon"
+gem "omniauth-dropbox-oauth2"
+gem "omniauth-ebay"
+gem "omniauth-etsy"
+gem "omniauth-37signals"
+gem "omniauth-angellist"
+gem "omniauth-bitbucket"
+
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
