@@ -46,8 +46,6 @@ gem "bootstrap"
 
 gem "jquery-rails"
 gem "fontawesome-free"
-
-gem "webpacker", git: "https://github.com/rails/webpacker"
 gem "figaro"
 gem "devise"
 gem "omniauth"
